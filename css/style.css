@@ -1,10 +1,10 @@
 @import url("horario.css");
 
 :root {
-    --destacado: #00adb5;
+    --destacado: #ceb4ff;
     --bg: #222831;
     --bg-destacado: #393e46;
-    --text: #ffffff;
+    --text: #f6dcfc;
 }
 
 /*
