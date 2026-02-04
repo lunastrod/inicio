@@ -28,22 +28,28 @@ tbody th {
     font-weight: normal;
 }
 
-td {
-    background: var(--bg);
-    transition: background 0.3s;
-    padding: 0;
-}
-
 td:hover {
     background: var(--bg-destacado);
 }
 
+td {
+    background: var(--bg);
+    transition: background 0.3s;
+    padding: 0;
+    position: relative; /* Add this */
+}
 td a {
-    display: block;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Add this */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     color: inherit;
     text-decoration: none;
+    padding: 15px;
 }
 
 /* ─── Teams Links ──────────────────────────────────────────────────────────── */
