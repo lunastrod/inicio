@@ -21,7 +21,7 @@ var(--text)
 body {
     background-color: #121212;
     color: var(--text);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 20px;
 }
@@ -51,3 +51,4 @@ body {
     background: var(--bg-destacado);
     border-color: var(--destacado);
 }
+

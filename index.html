@@ -2,15 +2,7 @@
 <!--
 IDEAS:
 - highlight del dia actual?
-- dark/light mode
-- pomodoro???
 - favicon
--->
-
-<!--
-ENLACES:
-- figma?
-- hide overflow tabla con enlace enorme
 -->
 <html lang="es">
 
@@ -20,61 +12,96 @@ ENLACES:
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="rows">
-        <div id="timetable"></div>
-        <div class="columns">
-            <div id="teams-links" class="list"></div>
-            <div class="list">
-                <ul>
-                    <li>Tareas
-                        <ul>
-                            <li><a href="https://ticktick.com/webapp/#q/all/tasks" class="button">Tareas</a></li>
-                        </ul>
-                    </li>
-                    <li>Comunicación
-                        <ul>
-                            <li><a href="https://web.whatsapp.com/" class="button">Whatsapp</a></li>
-                            <li><a href="https://mail.google.com/mail/u/0/?hl=es#inbox" class="button">Gmail</a></li>
-                            <li><a href="https://web.telegram.org/k/" class="button">Telegram</a></li>
-                            
-                        </ul>
-                    </li>
-                    <li>RRSS
-                        <ul>
-                            <li><a href="https://www.youtube.com/" class="button">YouTube</a></li>
-                            <li><a href="https://www.reddit.com/" class="button">Reddit</a></li>
 
-                        </ul>
-                    </li>
-                    <li>IA
-                        <ul>
-                            <li><a href="https://claude.ai/new" class="button">Claude</a></li>
-                            <li><a href="https://gemini.google.com/app" class="button">Gemini</a></li>
-                        </ul>
-                    </li>
-                    <li>Programación
-                        <ul>
-                            <li><a href="https://github.com/lunastrod/DAM-general" class="button">GitHub</a></li>
-                        </ul>
-                    </li>
-                    <li>Google
-                        <ul>
-                            <li><a href="https://docs.google.com/document/u/0/" class="button">Docs</a></li>
-                            <li><a href="https://drive.google.com/drive/u/0/home" class="button">Drive</a></li>
-                        </ul>
-                    </li>
-                    <li>Otros
-                        <ul>
+<div class="rows">
+    <div id="timetable"><table>
+<thead>
+    <tr>
+        <th>DAM 2025</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <th scope="row">8:30-9:30</th>
+        <td rowspan="2"><a href="https://campus.europaeducationgroup.es/courses/116675/modules" target="_blank">Entornos de Desarrollo</a></td>
+        <td rowspan="4"><a href="https://campus.europaeducationgroup.es/courses/104848/modules" target="_blank">Programación</a></td>
+        <td rowspan="3"><a href="https://campus.europaeducationgroup.es/courses/114391/modules" target="_blank">Lenguajes de Marcas</a></td>
+        <td rowspan="2"><a href="https://campus.europaeducationgroup.es/courses/113313/modules" target="_blank">Sistemas Informáticos</a></td>
+        <td rowspan="3"><a href="https://campus.europaeducationgroup.es/courses/116295/modules" target="_blank">Bases de Datos</a></td>
+    </tr>
+    <tr>
+        <th scope="row">9:30-10:30</th>
+    </tr>
+    <tr>
+        <th scope="row">10:30-11:30</th>
+        <td rowspan="4"><a href="https://campus.europaeducationgroup.es/courses/113313/modules" target="_blank">Sistemas Informáticos</a></td>
+        <td rowspan="4"><a href="https://campus.europaeducationgroup.es/courses/104848/modules" target="_blank">Programación</a></td>
+    </tr>
+    <tr>
+        <th scope="row">11:30-12:30</th>
+        <td rowspan="3"><a href="https://campus.europaeducationgroup.es/courses/116295/modules" target="_blank">Bases de Datos</a></td>
+        <td rowspan="3"><a href="https://campus.europaeducationgroup.es/courses/106795/modules" target="_blank">Itinerario Empleabilidad</a></td>
+    </tr>
+    <tr>
+        <th scope="row">12:30-13:30</th>
+        <td rowspan="2"><a href="https://campus.europaeducationgroup.es/courses/103874/modules" target="_blank">Robótica</a></td>
+    </tr>
+    <tr>
+        <th scope="row">13:30-14:30</th>
+    </tr>
+</tbody>
+</table></div>
+    <div class="columns">
+        <div id="teams-links" class="list"><ul><li>Entornos de Desarrollo<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTlhMWMzYTYtNDQzZC00NWQxLTlhYTItNTkzODdhODI2NTlj%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%225e7e0fcc-01f3-4250-83e5-c11873c6ca89%22%7d" class="button">Teams</a></li></ul></li><li>Sistemas Informáticos<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTlhMWMzYTYtNDQzZC00NWQxLTlhYTItNTkzODdhODI2NTlj%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%225e7e0fcc-01f3-4250-83e5-c11873c6ca89%22%7d" class="button">Lunes</a></li><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDQwYjgzNTQtNWQwZS00MzJiLWI0YWYtNWQzYTRkMzZlNGVl%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%225e7e0fcc-01f3-4250-83e5-c11873c6ca89%22%7d" class="button">Jueves</a></li></ul></li><li>Programación<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjVmYTc1ZDctOGZkNi00Y2Y1LThmZGEtODgyNjk0YmU0ODJk%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%22275b1295-4877-4add-aed9-4db0ba9c8425%22%7d" class="button">Martes</a></li><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTk2ZmUxNWUtNDMzNC00N2MwLThkMWYtOTJmY2JlNzMxMTQy%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%22275b1295-4877-4add-aed9-4db0ba9c8425%22%7d" class="button">Jueves</a></li></ul></li><li>Robótica<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2U4YTU5OTYtYWJlNS00NTZmLWE5N2MtODIwYWFmMjRkNjVk%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%2241dd77d0-bb1a-4580-9e0e-10046d348140%22%7d" class="button">Teams</a></li></ul></li><li>Lenguajes de Marcas<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDU2MTE1MDYtMzQxYi00ZGZhLWJlZDItODAzYzY2NzdmY2Q2%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%225e7e0fcc-01f3-4250-83e5-c11873c6ca89%22%7d" class="button">Teams</a></li></ul></li><li>Bases de Datos<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTY4NTJjYWQtYTQwZS00NmVmLWE0MzQtMjQ2ZDVhN2Y4MWIw%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%2241dd77d0-bb1a-4580-9e0e-10046d348140%22%7d" class="button">Teams 1</a></li><li><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWUyNTA0MzEtNGYxZS00NzM5LThlZmUtNTk2ZGFmYTA3OTU4%40thread.v2/0?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%2241dd77d0-bb1a-4580-9e0e-10046d348140%22%7d" class="button">Teams 2</a></li></ul></li><li>Itinerario Empleabilidad<ul><li><a href="https://teams.microsoft.com/l/meetup-join/19%3aoT4A0fFYSM2YDq1yxaF0jJ__sB9nl31xKrVcBwuetnk1%40thread.tacv2/1759480418753?context=%7b%22Tid%22%3a%22cfab0009-84b7-4397-a0f8-f77cdf1579c1%22%2c%22Oid%22%3a%2245a6ec04-a8ba-4a53-8542-3b5c86a1f6ca%22%7d" class="button">Teams</a></li></ul></li></ul></div>
+        <div class="list">
+            <ul>
+                <li>Tareas
+                    <ul>
+                        <li><a href="https://ticktick.com/webapp/#q/all/tasks" class="button">Tareas</a></li>
+                    </ul>
+                </li>
+                <li>Comunicación
+                    <ul>
+                        <li><a href="https://web.whatsapp.com/" class="button">Whatsapp</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/?hl=es#inbox" class="button">Gmail</a></li>
+                        <li><a href="https://web.telegram.org/k/" class="button">Telegram</a></li>
+                        
+                    </ul>
+                </li>
+                <li>RRSS
+                    <ul>
+                        <li><a href="https://www.youtube.com/" class="button">YouTube</a></li>
+                        <li><a href="https://www.reddit.com/" class="button">Reddit</a></li>
 
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+                    </ul>
+                </li>
+                <li>IA
+                    <ul>
+                        <li><a href="https://claude.ai/new" class="button">Claude</a></li>
+                        <li><a href="https://gemini.google.com/app" class="button">Gemini</a></li>
+                        <li><a href="https://chat.z.ai/" class="button">Z</a></li>
+
+                    </ul>
+                </li>
+                <li>Programación
+                    <ul>
+                        <li><a href="https://github.com/lunastrod/DAM-general" class="button">GitHub</a></li>
+                    </ul>
+                </li>
+                <li>Google
+                    <ul>
+                        <li><a href="https://docs.google.com/document/u/0/" class="button">Docs</a></li>
+                        <li><a href="https://drive.google.com/drive/u/0/home" class="button">Drive</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
-</body>
-
+</div>
 <script src="js/horario.js"></script>
-
 </html>

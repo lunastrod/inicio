@@ -82,3 +82,15 @@ td a {
 .list > ul > li > ul > li {
     margin: 0;
 }
+
+.dia-actual {
+    background: var(--destacado) ;
+    color: #121212 ;
+    font-weight: bold;
+}
+
+.dia-actual-td {
+    background: rgba(206, 180, 255, 0.1) ;
+    border-left: 2px solid var(--destacado) ;
+    border-right: 2px solid var(--destacado) ;
+}
